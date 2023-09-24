@@ -1,5 +1,5 @@
 import './App.css';
-import About from './pageBlocks/About';
+import About from './pageBlocks/About'
 
 function App() {
   return (

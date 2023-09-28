@@ -2,30 +2,9 @@ import About from './pageBlocks/About';
 import Experience from './pageBlocks/Experience';
 import Projects from './pageBlocks/Projects';
 import Education from './pageBlocks/Education';
+import Footer from './pageBlocks/Footer';
 
 function App() {
-  // return (
-  //   <div className="bg-slate-900 leading-relaxed text-slate-400 antialiased selection:bg-teal-300 selection:text-teal-900">
-  //     <div className="__variable_20b187 group/spotlight relative">
-  //     <div className="pointer-events-none fixed inset-0 z-30 transition duration-300 lg:absolute" styleName="background: radial-gradient(600px at 1018px 308px, rgba(29, 78, 216, 0.15), transparent 80%)"></div>
-  //       <header className="">
-  //         <p>Hakeem Abdulmalik</p>
-  //         <p>Freelance Software Engineer</p>
-
-  //         <p>I build interesting projects. I specialize in automation, optimization, and data analysis</p>
-  //         <ul>
-  //           <li>Github icon</li>
-  //           <li>LinkedIn icon</li>
-  //         </ul>
-  //       </header>
-
-  //       <About></About>
-  //       <Education></Education>
-  //       <Experience></Experience>
-  //       <Projects></Projects>
-  //     </div>
-  //   </div>
-  // );
 
   return (
     <>
@@ -136,27 +115,8 @@ function App() {
             <Experience></Experience>
             <Projects></Projects>
             <Education></Education>
-            <footer className="max-w-md pb-16 text-sm text-slate-500 sm:pb-0">
-              <p>Loosely designed in <a href="https://www.figma.com/"
-                  className="font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300" target="_blank"
-                  rel="noreferrer">Figma</a> and coded in <a href="https://code.visualstudio.com/"
-                  className="font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300" target="_blank"
-                  rel="noreferrer">Visual Studio Code</a> by yours truly. Built with <a
-                  href="https://nextjs.org/"
-                  className="font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300" target="_blank"
-                  rel="noreferrer">Next.js</a> and <a href="https://tailwindcss.com/"
-                  className="font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300" target="_blank"
-                  rel="noreferrer">Tailwind CSS</a>, deployed with <a href="https://vercel.com/"
-                  className="font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300" target="_blank"
-                  rel="noreferrer">Vercel</a>. All text is set in the <a href="https://rsms.me/inter/"
-                  className="font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300" target="_blank"
-                  rel="noreferrer">Inter</a> typeface.</p>
-            </footer>
+            <Footer></Footer>
           </main>
-          <div><button
-              className="hover:-text-teal-300 absolute bottom-0 right-0 inline-flex items-center px-2 py-4 font-medium text-slate-400 hover:-translate-y-2 focus-visible:text-teal-300"
-              type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-:R4l6:"
-              data-state="closed"><span className="sr-only">Click to time travel</span></button></div>
         </div>
       </div>
     </div>

@@ -1,5 +1,7 @@
+import Section from './Section';
+
 export default function Profile() {
-  const expDetails = [
+  const details = [
     {
       date: 'April 2023 - August 2023',
       title: 'Software Consultant',
@@ -56,7 +58,7 @@ export default function Profile() {
                       </div>
                       <header
                         className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2"
-                        aria-label="2018 to Present">2018 — Present</header>
+                        aria-label="2018 to Present">date</header>
                       <div className="z-10 sm:col-span-6">
                         <h3 className="font-medium leading-snug text-slate-200">
                           <div><a
